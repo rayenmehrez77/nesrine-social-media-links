@@ -1,6 +1,6 @@
 :root {
-  --main-color: #866121;
-  --background-color: #d3c37b;
+  --main-color: #d29630;
+  --background-color: #e6bb2e8a;
   --tertiary-color: #2e2209;
   --button-color: #fff;
 }
@@ -19,19 +19,24 @@ body {
   align-items: center;
 }
 
-.app > span {
+.app > h1 {
   font-weight: 600;
-  margin-top: 0.6rem;
   color: var(--tertiary-color);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
 }
 
-.app > img {
-  width: 14rem;
-  object-fit: cover;
-  border-bottom-right-radius: 7rem;
-  border-top-left-radius: 7rem;
-  border: 3px solid var(--main-color);
+.app > .app__imgbox {
+  z-index: 99;
+  background-color: var(--main-color);
+  border: 5px solid var(--main-color);
+  clip-path: polygon(75% 0, 94% 26%, 51% 78%, 6% 26%, 25% 0);
+}
+
+.app > .app__imgbox > img {
+  width: 16rem;
+  clip-path: polygon(75% 0, 94% 26%, 51% 78%, 6% 26%, 25% 0);
+  object-fit: contain;
 }
 
 .app > h1 {
@@ -64,10 +69,16 @@ body {
   justify-content: space-between;
   background-color: var(--button-color);
   margin: 0.5rem 0;
-  padding: 0.6rem 13rem;
+  padding: 0.6rem 10rem;
   position: relative;
-  border-radius: 30px;
+  border-radius: 8px;
   cursor: pointer;
+  text-align: center;
+  border: 2px solid #ffc259;
+}
+
+.app > h4 {
+  text-align: center;
 }
 
 @media (max-width: 800px) {
@@ -75,35 +86,57 @@ body {
     font-size: 1.3rem;
   }
   .app__buttons > div {
-    padding: 0.65rem 10rem;
+    padding: 0.65rem 6rem;
   }
 }
 
+.app__buttons > div .business {
+  font-size: 1rem;
+}
+
 @media (max-width: 600px) {
+  .app {
+    padding: 1rem 0.6rem;
+  }
   .app > h1 {
     font-size: 1.2rem;
   }
   .app__buttons > div {
-    padding: 0.65rem 7.5rem;
+    padding: 0.5rem 3rem;
   }
+
+  .business {
+    font-size: 0.6rem;
+  }
+
+  .app__buttons > div .business {
+    font-size: 1.1rem;
+  }
+}
+
+.book {
+  color: #d89216;
+  font-weight: 800;
 }
 
 .app__buttons > div > img {
   position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 2rem;
+  top: 6.4px;
+  left: 6.4px;
+  width: 2.5rem;
+  padding: 0.5rem;
 }
 @media (max-width: 350px) {
   .app > h1 {
     font-size: 1rem;
   }
   .app__buttons > div {
-    padding: 0.3rem 4rem;
+    padding: 0.38rem 1.3rem;
   }
 
   .app__buttons > div > img {
-    width: 1.5rem;
+    width: 2rem;
+    top: 0.4px;
   }
 
   .app > img {
@@ -114,6 +147,10 @@ body {
 
   .app__info span {
     font-size: 1.2rem;
+  }
+
+  .app__buttons > div .business {
+    font-size: 0.8rem;
   }
 }
 
