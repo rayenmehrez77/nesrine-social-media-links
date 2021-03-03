@@ -1,7 +1,7 @@
 :root {
-  --main-color: #d29630;
-  --background-color: #e6bb2e8a;
-  --tertiary-color: #2e2209;
+  --main-color: #eb8b21;
+  --background-color: #e6b7ac;
+  --tertiary-color: #e48118;
   --button-color: #fff;
 }
 
@@ -20,9 +20,9 @@ body {
 }
 
 .app > h1 {
-  font-weight: 600;
-  color: var(--tertiary-color);
-  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--main-color);
+  font-size: 1.5rem;
   letter-spacing: 2px;
 }
 
@@ -74,11 +74,12 @@ body {
   border-radius: 8px;
   cursor: pointer;
   text-align: center;
-  border: 2px solid #ffc259;
+  border: 2px solid var(--main-color);
 }
 
 .app > h4 {
   text-align: center;
+  margin-top: 1.2rem;
 }
 
 @media (max-width: 800px) {
@@ -99,7 +100,7 @@ body {
     padding: 1rem 0.6rem;
   }
   .app > h1 {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
   }
   .app__buttons > div {
     padding: 0.5rem 3rem;
@@ -128,7 +129,7 @@ body {
 }
 @media (max-width: 350px) {
   .app > h1 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .app__buttons > div {
     padding: 0.38rem 1.3rem;
@@ -157,8 +158,13 @@ body {
 .app__buttons > div > a {
   width: 100%;
   text-decoration: none;
-  color: var(--tertiary-color);
+  color: #000;
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 1.2rem;
+}
+
+.app__info > .tag {
+  color: #062746;
+  font-weight: 600;
 }
