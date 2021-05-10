@@ -23,33 +23,16 @@ function App() {
       </div>
       <h4>👇 I'm available on social media 👇</h4>
       <div className="app__buttons">
-        {/* <div>
-          <a
-            href="https://www.groupado.tn/fr/experience/pzyC8vcP/business-mkhk-yaqf?fbclid=IwAR3156mEMC7_YBntG4GswAExQsrXIo1TjUytmikoCn0xMiD-hMUaSFaENUg"
-            target="_blank"
-            className="business"
-          >
-            <strong className="book">Book Now</strong> 👉 business مخك ياقف 🚀🚀
-          </a>
-        </div> */}
-
         <div>
-          <a
-            href="https://www.groupado.tn/fr/experience/lvjfZAhG/rhlt-altshafy-aldhaty-llrwh-w-aljsd?fbclid=IwAR38onc1_o4t_e7QRclzB27cToTzFaFT2O74ZkE5RVNCM9-QZgMJPz-gup8"
-            target="_blank"
-          >
-            رحلة التشافي الذاتي للروح و الجسد 🎯🔥
+          <a href="https://www.groupado.tn/fr/experience/BXNs4Mcz/lead-your-business?fbclid=IwAR3Lz18zUmbt8XgMahjPqOVDEK5BMRGEZdDfhlsaT-Z3btiz_2v2XfgeNR8">
+            Lead Your Business En Ligne 🎯🔥
           </a>
         </div>
-
-        {/* <div>
-          <a
-            href="https://www.groupado.tn/fr/experience/AQ9hWnIG/etudiant-responsable?fbclid=IwAR1E2Z7DgTz5qNZLUhfQmyyqqYVF_lPZ5EAWqparnQWAATopfntsjc05lCM"
-            target="_blank"
-          >
-            Etudiant Responsable🎯🔥
+        <div>
+          <a href="https://www.groupado.tn/fr/experience/AXPiWnIG/lead-your-life?fbclid=IwAR0Np9wgSxihTEIJzaWnTq5G-VSNyexs7THaTz9ysPt-fUCMixuBVyJj1qs">
+            Lead Your Life En Ligne 🎯🔥
           </a>
-        </div> */}
+        </div>
 
         <div>
           <a
